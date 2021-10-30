@@ -37,7 +37,7 @@ class PostController extends Controller
         if ($post->state == 1){
             $website = Website::find($post->website_id);
 
-            $all_subs = $website->subscribers()->get();
+            $all_subs = $website->subscribers()->where('state', '=', 1)->get();
 
             foreach ($all_subs as $subs) {
                 $check = PostSubscriber::where('post_id', '=', $post->id)
