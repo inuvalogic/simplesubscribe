@@ -42,6 +42,7 @@ required:
 
 - title
 - content
+- website_id
 
 optional:
 
@@ -59,6 +60,7 @@ required:
 
 - name
 - email
+- website_id
 
 optional:
 
