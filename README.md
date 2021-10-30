@@ -12,7 +12,7 @@ Simple subscription platform (only RESTful APIs with MySQL) in which users can s
 
 ## Setting up
 
-make database name `simplesubscribe` first, then run this command:
+make database with name `simplesubscribe` first, then run this command:
 
 ```sh
 $ git clone <repo-url>
